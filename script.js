@@ -20,13 +20,17 @@ else {
 
 
 //  2
-let userName = 'Maria'
+let studentName = "მარიამ";
 
-if (userName) {
-    console.log('Maria' && true);
-}
-else {
-    console.log('error');
+switch (studentName) {
+    case "მარიამ":
+        console.log(true);
+
+        break;
+
+    default:
+        console.log(false);
+        break;
 }
 
 
